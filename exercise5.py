@@ -8,7 +8,7 @@
 5. The higher the total number of letters that appear in both names, the higher the love compatibility score.
 '''
 
-'''name1 = input("What is your name ?")
+name1 = input("What is your name ?")
 name2 = input("What is his/her name ?")
 combine_names = name1 + name2
 lowercase_names = combine_names.lower()
@@ -27,14 +27,13 @@ true_score = t + r + u + e
 love_score = l + o + v + e
 
 total_score = int(str(true_score) + str(love_score))
-print(f"Your love score is {total_score}%")'''
+print(f"Your love score is {total_score}%")
 
 # Heads and tails
 
 import random
 
 a = random.randint(0,1)
-
 if a == 1:
     print("Heads")
 else:
