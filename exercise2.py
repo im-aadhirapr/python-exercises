@@ -1,29 +1,24 @@
-#Input 
+# Program to add digits of a number
 
-name = input("Enter your name")
-length = len(name)
-print("Hello "+name)
-print(length)
+number = input("Enter the number ")
+num1 = number[0]
+num2 = number[1]
+sum = int(num1) + int(num2)
+print(sum)
 
-#Swapping 2 numbers
+# To calculate the BMI
 
-a = input("Enter the value for a =")
-b = input("Enter the value for b =")
+weight = int(input("Enter the weight"))
+height = int(input("Enter the height"))
+calculate_bmi = weight / (height * height)
+print("The body mass index of the person is " +str(calculate_bmi))
 
-temp = a
-a = b
-b = temp
-print("a = " + a +" b = "+ b)
+# To check even or odd
 
-#Swapping two numbers without temp
+number = int(input("Enter a number"))
 
-a = int(input("Enter the value for a ="))
-b = int(input("Enter the value for b ="))
-
-a = a + b
-b = a - b
-a = a - b
-print("a = " + str(a) +" b = "+ str(b))
-
-
+if number % 2 == 0:
+    print(f"{number} is even")
+else:
+    print(f"{number} is odd")
 

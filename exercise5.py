@@ -1,31 +1,31 @@
-# BMI
+# Love calculator
 
-weight = float(input("Enter the weight in kg"))
-height = float(input("Enter the height in meter"))
-bmi =round((weight) / (height ** 2))
+'''
+1 .The calculator would first get the names of the two people from the user.
+2. It would then create a list of all the letters in the word "true love".
+3. It would then count the number of times each letter in the word "true love" appears in each of the two names.
+4. The calculator would then add up the number of times each letter appears in both names.
+5. The higher the total number of letters that appear in both names, the higher the love compatibility score.
+'''
 
-if bmi < 18.5:
-    print(f"Your bmi is {bmi} and you are underweight")
-elif bmi < 25:
-    print(f"Your bmi is {bmi} and you have a normal weight")
-elif bmi < 30:
-    print(f"Your bmi is {bmi} and you are overweight")
-elif bmi < 35:
-    print(f"Your bmi is {bmi} and you are obese")
-else:
-    print(f"Your bmi is {bmi} and you are clinically obese")
+name1 = input("What is your name ?")
+name2 = input("What is his/her name ?")
+combine_names = name1 + name2
+lowercase_names = combine_names.lower()
 
-# Write a program to check whether a year is leap year or not
+# true love
+t = lowercase_names.count('t')
+r = lowercase_names.count('r')
+u = lowercase_names.count('u')
+e = lowercase_names.count('e')
 
-year = int(input("Enter the year"))
+l = lowercase_names.count('l')
+o = lowercase_names.count('o')
+v = lowercase_names.count('v')
+e = lowercase_names.count('e')
 
-if year % 4 == 0:
-    if year % 100 == 0:
-        if year % 400 == 0:
-            print ("Leap year")
-        else:
-            print("Not leap year")
-    else:
-        print("Leap year")
-else:
-    print("Not a leap year")
+true_score = t + r + u + e
+love_score = l + o + v + e
+
+total_score = int(str(true_score) + str(love_score))
+print(f"Your love score is {total_score}%")

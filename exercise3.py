@@ -1,15 +1,31 @@
-# Program to add digits of a number
+# BMI
 
-number = input("Enter the number ")
-num1 = number[0]
-num2 = number[1]
-sum = int(num1) + int(num2)
-print(sum)
+weight = float(input("Enter the weight in kg"))
+height = float(input("Enter the height in meter"))
+bmi =round((weight) / (height ** 2))
 
-# To calculate the BMI
+if bmi < 18.5:
+    print(f"Your bmi is {bmi} and you are underweight")
+elif bmi < 25:
+    print(f"Your bmi is {bmi} and you have a normal weight")
+elif bmi < 30:
+    print(f"Your bmi is {bmi} and you are overweight")
+elif bmi < 35:
+    print(f"Your bmi is {bmi} and you are obese")
+else:
+    print(f"Your bmi is {bmi} and you are clinically obese")
 
-weight = int(input("Enter the weight"))
-height = int(input("Enter the height"))
-calculate_bmi = weight / (height * height)
-print("The body mass index of the person is " +str(calculate_bmi))
+# Write a program to check whether a year is leap year or not
 
+year = int(input("Enter the year"))
+
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print ("Leap year")
+        else:
+            print("Not leap year")
+    else:
+        print("Leap year")
+else:
+    print("Not a leap year")
