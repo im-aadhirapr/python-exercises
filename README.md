@@ -22,3 +22,7 @@ Exercises just to learn python
 ### Exercise 5
 - Love calculator
 - Heads and tails
+- A program to select a random name from a list of names and the person selected will pay the bill
+- a program to select a random name from a list of names and the person selected will pay the bill with using choice()
+
+### Exercise 6
