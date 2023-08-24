@@ -36,3 +36,23 @@ for person in height_list:
 
 avg = sum/count
 print(f"The average height is {round(avg)}")
+
+# Program to find out max number from a list of numbers
+
+numbers_list = input("Enter the list of number seperated by commas")
+number = numbers_list.split(',')
+#print(max(number))
+
+count = 0
+for len_value in number:
+    count = count + 1
+
+for i in range(count):
+    number[i] = int(number[i])
+print(number)
+
+maximum_number = number[0]
+for numbers_in in number:
+    if number > maximum_number:
+        maximum_number = number
+print(f"Maximum number / highest number is {maximum_number}")

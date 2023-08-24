@@ -28,3 +28,4 @@ Exercises just to learn python
 ### Exercise 6
 - Rock, paper, scissors
 - Program to calculate average height from a list of heights
+- Program to find out max number from a list of numbers
