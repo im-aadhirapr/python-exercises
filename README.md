@@ -29,3 +29,7 @@ Exercises just to learn python
 - Rock, paper, scissors
 - Program to calculate average height from a list of heights
 - Program to find out max number from a list of numbers
+
+### Exercise 7
+- Calculate sum of even numbers from 1 to 100 , including 1 and 100
+- FizzBuzz
