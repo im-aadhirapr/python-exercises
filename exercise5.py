@@ -8,7 +8,7 @@
 5. The higher the total number of letters that appear in both names, the higher the love compatibility score.
 '''
 
-'''name1 = input("What is your name ?")
+name1 = input("What is your name ?")
 name2 = input("What is his/her name ?")
 combine_names = name1 + name2
 lowercase_names = combine_names.lower()
@@ -36,15 +36,15 @@ a = random.randint(0,1)
 if a == 1:
     print("Heads")
 else:
-    print("Tails")'''
+    print("Tails")
 
 # Write a program to select a random name from a list of names and the person selected will pay the bill
 
-'''import random
+import random
 names = input("Enter the names seperated by commas")
 individual_names = names.split(',')
 selected_person = random.choice(individual_names)
-print(f"{selected_person} will pay the bill")'''
+print(f"{selected_person} will pay the bill")
 
 # Write a program to select a random name from a list of names and the person selected will pay the bill without choice()
 
